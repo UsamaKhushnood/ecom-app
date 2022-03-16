@@ -1,9 +1,14 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="dark">
+    <b-navbar toggleable="lg" type="dark" variant="primary">
       <b-navbar-brand>
-        <router-link to="/" tag="div">NavBar</router-link></b-navbar-brand
-      >
+        <router-link to="/" tag="div"
+          ><img
+            src="@/assets/images/Logo.png"
+            class=""
+            width="90px"
+            alt="s" /></router-link
+      ></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -13,10 +18,11 @@
             <router-link to="/contact" tag="span">Contact Us</router-link>
           </b-nav-item>
           <b-nav-item href="#">
-            <router-link to="/about" tag="span"
-              >About Us</router-link
-            ></b-nav-item
-          >
+            <router-link to="/about" tag="span">About Us</router-link>
+          </b-nav-item>
+          <b-nav-item href="#">
+            <router-link to="/shop" tag="span">Shop</router-link>
+          </b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import ContactPage from '../views/ContactPage.vue'
+import ShopPage from '../views/ShopPage'
 
 Vue.use(VueRouter)
 
@@ -13,7 +14,12 @@ const routes = [
   },
   {
     path: '/contact',
+    name: 'Shop',
     component: ContactPage,
+  },
+  {
+    path: '/shop',
+    component: ShopPage,
   },
   {
     path: '/about',

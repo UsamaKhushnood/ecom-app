@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1 class="heading">Contact Page is Working!!!</h1>
+    <contact-c></contact-c>
   </div>
 </template>
 <script>
 export default {
-  name: 'Contact Page',
-}
+  name: "Contact Page",
+};
 </script>
 <style scoped>
 h1 {
